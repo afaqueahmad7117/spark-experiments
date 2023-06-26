@@ -2,6 +2,7 @@
 interview
 .idea
 data/*
+!data/.gitkeep
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
