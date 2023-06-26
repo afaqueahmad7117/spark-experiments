@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+interview
+.idea
+data/*
+spark/metastore_db
+spark/spark-warehouse
+spark/derby.log
+
