@@ -2,11 +2,9 @@ from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
 
 
-def main():
+if __name__ == "__main__":
     spark = (
-        SparkSession
-        .builder
-        .appName("Spark Bucketing")
+        SparkSession.builder.appName("Spark Partitioning")
         .enableHiveSupport()
         .config("spark.driver.memory", "8g")
         .getOrCreate()
@@ -19,8 +17,12 @@ def main():
     df_table_1 = df_table_1.withColumn("test", F.lit(1))
     df_table_2 = df_table_2.withColumn("test", F.lit(1))
 
-    df_table_1.repartition(5, "id").write.mode("overwrite").partitionBy("id").parquet("data/table_1.parquet")
-    df_table_2.repartition(5, "id").write.mode("overwrite").partitionBy("id").parquet("data/table_2.parquet")
+    df_table_1.repartition(5, "id").write.mode("overwrite").partitionBy("id").parquet(
+        "data/table_1.parquet"
+    )
+    df_table_2.repartition(5, "id").write.mode("overwrite").partitionBy("id").parquet(
+        "data/table_2.parquet"
+    )
 
     print("done repartitioning")
     df_joined = df_table_1.join(df_table_2, "id")
@@ -34,8 +36,4 @@ def main():
     df_joined_2.explain()
 
     # to keep holding the spark ui
-    input()
-
-
-if __name__ == "__main__":
-    main()
+    # input()

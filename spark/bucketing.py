@@ -1,11 +1,8 @@
 from pyspark.sql import SparkSession
 
-
-def main():
+if __name__ == "__main__":
     spark = (
-        SparkSession
-        .builder
-        .appName("Spark Bucketing")
+        SparkSession.builder.appName("Spark Bucketing")
         .enableHiveSupport()
         .config("spark.driver.memory", "8g")
         .getOrCreate()
@@ -21,18 +18,14 @@ def main():
     df_join.explain()
 
     (
-        df_table_1
-        .write
-        .bucketBy(5, "id")
+        df_table_1.write.bucketBy(5, "id")
         .sortBy("id")
         .mode("overwrite")
         .saveAsTable("table_1_bucketed")
     )
 
     (
-        df_table_2
-        .write
-        .bucketBy(5, "id")
+        df_table_2.write.bucketBy(5, "id")
         .sortBy("id")
         .mode("overwrite")
         .saveAsTable("table_2_bucketed")
@@ -40,13 +33,11 @@ def main():
 
     df_table_1_bucketed = spark.table("table_1_bucketed")
     df_table_2_bucketed = spark.table("table_2_bucketed")
-    df_bucketed_join = df_table_2_bucketed.join(df_table_1_bucketed, on="id", how="inner")
+    df_bucketed_join = df_table_2_bucketed.join(
+        df_table_1_bucketed, on="id", how="inner"
+    )
     df_bucketed_join.count()
     df_bucketed_join.explain()
 
     # to keep holding the spark ui
-    input()
-
-
-if __name__ == "__main__":
-    main()
+    # input()
