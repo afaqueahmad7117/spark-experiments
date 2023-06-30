@@ -2,8 +2,9 @@
 interview
 .idea
 data/*
-!data/.gitkeep
+data/data_skew/raw_customers.csv
+data/data_skew/raw_transactions.csv
+!data/data_skew
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
-
