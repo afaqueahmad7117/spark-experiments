@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  🧙 My experiments with Spark, trying to how it works under the hood better!
+  🧙 My experiments with Spark, understanding it's workings under the hood better!
 </p>
 
 Refer to datasets used in codes [here.](data)
