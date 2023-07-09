@@ -1,3 +1,4 @@
+.DS_Store
 .ipynb_checkpoints
 interview
 .idea
@@ -5,6 +6,7 @@ data/*
 data/data_skew/raw_customers.csv
 data/data_skew/raw_transactions.csv
 !data/data_skew
+!data/spark-experiments.gif
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
