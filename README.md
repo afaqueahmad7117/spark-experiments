@@ -18,5 +18,5 @@ Refer to datasets used in codes [here.](data)
 2. Data Skew
    1. Generating a [skewed dataset](spark/data_skew/1_generate_skewed_data.ipynb)
    2. Simulating how a [skewed dataset looks like](spark/data_skew/2_skew_dataset_simulation.ipynb)
-   3. Solving data skew using [AQE and Broadcast joins](spark/data_skew/3_solving_data_skew_aqe_broadcast.ipynb)
+   3. Solving data skew using [AQE and broadcast joins](spark/data_skew/3_solving_data_skew_aqe_broadcast.ipynb)
    4. Solving data skew (in joins and aggregations) using [salting](spark/data_skew/4_salting.ipynb)
