@@ -12,8 +12,6 @@
   🧙 My experiments with Spark, understanding it's workings under the hood better!
 </p>
 
-Refer to datasets used in codes [here.](data)
-
 1. Reading Spark's [query plans](spark/reading_query_plans.ipynb)
 2. Data Skew
    1. Generating a [skewed dataset](spark/data_skew/1_generate_skewed_data.ipynb)
