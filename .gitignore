@@ -1,7 +1,16 @@
+# MacOS
 .DS_Store
+
+# Notebooks
 .ipynb_checkpoints
-interview
+
+# IDE
 .idea
+
+# Files/Directories
+interview
+
+# Datasets
 data/*
 data/data_skew/raw_customers.csv
 data/data_skew/raw_transactions.csv
@@ -10,3 +19,4 @@ data/data_skew/raw_transactions.csv
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
+
