@@ -9,6 +9,7 @@
 
 # Files/Directories
 interview
+/spark/spark_interview_qn_1.ipynb
 
 # Datasets
 data/*
@@ -19,4 +20,3 @@ data/data_skew/raw_transactions.csv
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
-
