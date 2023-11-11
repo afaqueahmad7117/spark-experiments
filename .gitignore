@@ -7,6 +7,9 @@
 # IDE
 .idea
 
+# VSCode
+.vscode
+
 # Files/Directories
 interview
 spark/to_include_later
@@ -21,3 +24,4 @@ data/data_skew/raw_transactions.csv
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
+spark/test
