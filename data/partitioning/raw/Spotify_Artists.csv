@@ -1,0 +1,51 @@
+artist_id,name,genre,country
+1,Artist_1,Electronic,France
+2,Artist_2,Electronic,Australia
+3,Artist_3,Jazz,France
+4,Artist_4,Classical,Australia
+5,Artist_5,Hip-Hop,USA
+6,Artist_6,Jazz,Australia
+7,Artist_7,Jazz,South Korea
+8,Artist_8,Rock,Germany
+9,Artist_9,Jazz,Japan
+10,Artist_10,Rock,Germany
+11,Artist_11,Rock,Japan
+12,Artist_12,Classical,France
+13,Artist_13,Electronic,Germany
+14,Artist_14,Classical,USA
+15,Artist_15,Jazz,Australia
+16,Artist_16,Hip-Hop,USA
+17,Artist_17,Pop,France
+18,Artist_18,Pop,Canada
+19,Artist_19,Electronic,South Korea
+20,Artist_20,Pop,UK
+21,Artist_21,Jazz,UK
+22,Artist_22,Hip-Hop,Canada
+23,Artist_23,Hip-Hop,Japan
+24,Artist_24,Rock,Japan
+25,Artist_25,Classical,Canada
+26,Artist_26,Jazz,France
+27,Artist_27,Hip-Hop,Canada
+28,Artist_28,Pop,Japan
+29,Artist_29,Classical,Australia
+30,Artist_30,Pop,Japan
+31,Artist_31,Jazz,Australia
+32,Artist_32,Rock,South Korea
+33,Artist_33,Electronic,Canada
+34,Artist_34,Electronic,Australia
+35,Artist_35,Rock,Canada
+36,Artist_36,Hip-Hop,South Korea
+37,Artist_37,Rock,Japan
+38,Artist_38,Rock,Canada
+39,Artist_39,Classical,UK
+40,Artist_40,Electronic,USA
+41,Artist_41,Hip-Hop,Australia
+42,Artist_42,Classical,South Korea
+43,Artist_43,Jazz,Japan
+44,Artist_44,Classical,Japan
+45,Artist_45,Electronic,UK
+46,Artist_46,Rock,USA
+47,Artist_47,Classical,Canada
+48,Artist_48,Electronic,Canada
+49,Artist_49,Pop,Japan
+50,Artist_50,Rock,France
