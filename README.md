@@ -18,3 +18,4 @@
    2. Simulating how a [skewed dataset looks like](spark/1_data_skew/2_skew_dataset_simulation.ipynb)
    3. Solving data skew using [AQE and broadcast joins](spark/1_data_skew/3_solving_data_skew_aqe_broadcast.ipynb)
    4. Solving data skew (in joins and aggregations) using [salting](spark/1_data_skew/4_salting.ipynb)
+3. [Partitioning](spark/5_0_partitioning.ipynb) for high performance data processing: 
