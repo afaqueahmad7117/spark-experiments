@@ -18,10 +18,12 @@ spark/to_include_later
 data/*
 data/data_skew/raw_customers.csv
 data/data_skew/raw_transactions.csv
+data/bucketing/partitioned
 !data/data_skew
 !data/partitioning
 !data/spark-experiments.gif
 !data/spark-execution.png
+!data/bucketing
 spark/metastore_db
 spark/spark-warehouse
 spark/derby.log
