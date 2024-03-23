@@ -19,6 +19,7 @@ data/*
 data/data_skew/raw_customers.csv
 data/data_skew/raw_transactions.csv
 data/bucketing/partitioned
+data/partitioning/partitioned
 !data/data_skew
 !data/partitioning
 !data/spark-experiments.gif
