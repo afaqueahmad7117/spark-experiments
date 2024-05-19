@@ -8,8 +8,8 @@
     />
 </h1>
 
-<p align="center">
-  🧙 My experiments with Spark, understanding it's workings under the hood better!
+<p>
+  This repository is a reference to all the code snippets used in my [Spark Performance Tuning](https://www.youtube.com/playlist?list=PLWAuYt0wgRcLCtWzUxNg4BjnYlCZNEVth) playlist on YouTube. The goal of the playlist and the code snippets is to make complex concepts in Apache Spark, easy to understand along with developing a deep understanding of how things work under the hood!
 </p>
 
 1. Reading Spark's [query plans](spark/2_reading_query_plans.ipynb)
